@@ -63,6 +63,10 @@ a:hover {
     font-weight: lighter !important;
 }
 
+.small-text {
+    font-size: 12px;
+}
+
 .table {
     font-weight: lighter !important;
     text-align: left;
@@ -71,6 +75,12 @@ a:hover {
 #copyright-notice {
     text-align: center;
     padding-top: 50px;
+}
+
+/* Services Tab */
+
+#services-header {
+    padding-bottom: 20px;
 }
 
 /* Contact Tab */
