@@ -26,13 +26,14 @@ a:hover {
     height: 100%;
     width: 100%;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .site-content {
     text-align: center;
     margin: auto;
     padding-top: 90px;
-    max-width: 400px;
+    max-width: 440px;
 }
 
 .site-header {
@@ -70,6 +71,11 @@ a:hover {
 .table {
     font-weight: lighter !important;
     text-align: left;
+}
+
+th > span {
+    font-weight: lighter;
+    color: #999;
 }
 
 #copyright-notice {
