@@ -7,22 +7,22 @@ body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     background-color: #F5F5F5;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #bbb;
+    color: #333;
     height: 100%;
     width: 100%;
 }
 
 a {
-    color: #bbb;
+    color: #333;
     font-weight: lighter;
 }
 
 a:hover {
-    color: #bbb;
+    color: #333;
 }
 
 .site-wrapper {
-    background-image: url("../img/bg.jpg");
+    /*background-image: url("../img/bg.jpg");*/
     height: 100%;
     width: 100%;
     overflow-y: auto;
@@ -75,7 +75,7 @@ a:hover {
 
 th > span {
     font-weight: lighter;
-    color: #999;
+    color: #555;
 }
 
 #copyright-notice {
